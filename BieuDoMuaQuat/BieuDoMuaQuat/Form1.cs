@@ -7,6 +7,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using Test_Sqlite.Class;
 
 namespace BieuDoMuaQuat
 {
@@ -85,12 +86,57 @@ namespace BieuDoMuaQuat
             this.Controls.Add(ThongKe1);
 
         }
-        private void Form1_Load(object sender, EventArgs e)
+        Getting_UI G_U = new Getting_UI();
+        void BieuDoLine(DateTime dt_start , DateTime dt_finelly) // 12 - 11
         {
-            // TODO: This line of code loads data into the 'qLTVDataSet.DOC_GIA' table. You can move, or remove it, as needed.
-            //this.dOC_GIATableAdapter.Fill(this.qLTVDataSet.DOC_GIA);
-            // gridControl1.DataSource = ThongKe();
-            TaoBieuDo();
+            ChartControl lineChart = new ChartControl();
+
+            // Create a line series.
+            Series series1 = new Series("Sách mượn đã trả", ViewType.Line);
+            Series series2 = new Series("Sách mượn chưa chả", ViewType.Line);
+            int result_time = dt_finelly.Month - dt_start.Month;
+            for(int i = dt_start.Month; i <= dt_finelly.Month; i++)
+            {
+                //  MessageBox.Show(i.ToString());
+                //    textEdit1.Text = string.Format(
+                //"select count(*) from thongtin_muon where month(ngaytra) = {0}", i);
+                string cmd1 = G_U.mysqli_ex_data(string.Format(
+            "select count(*) as 'time' from thongtin_muon where month(ngaytra) = {0} and trangthai = 'Đả trả'" , i));
+                string cmd2 = G_U.mysqli_ex_data(string.Format(
+            "select count(*) as 'time' from thongtin_muon where month(ngaytra) = {0} and trangthai != 'Đả trả'", i));
+                series1.Points.Add(new SeriesPoint(i,int.Parse(cmd1))); ;
+                series2.Points.Add(new SeriesPoint(i, int.Parse(cmd2)));
+            }
+            lineChart.Series.Add(series1);
+            lineChart.Series.Add(series2);
+            series1.ArgumentScaleType = ScaleType.Numerical;
+            // Access the view-type-specific options of the series.
+            ((LineSeriesView)series1.View).MarkerVisibility = DevExpress.Utils.DefaultBoolean.True;
+            ((LineSeriesView)series1.View).LineMarkerOptions.Kind = MarkerKind.Triangle;
+            ((LineSeriesView)series1.View).LineStyle.DashStyle = DashStyle.Dash;
+            ((LineSeriesView)series2.View).MarkerVisibility = DevExpress.Utils.DefaultBoolean.True;
+            ((LineSeriesView)series2.View).LineMarkerOptions.Kind = MarkerKind.Triangle;
+            ((LineSeriesView)series2.View).LineStyle.DashStyle = DashStyle.Dash;
+            // Access the type-specific options of the diagram.
+            ((XYDiagram)lineChart.Diagram).EnableAxisXZooming = true;
+                
+            // Hide the legend (if necessary).
+            lineChart.Legend.Visibility = DevExpress.Utils.DefaultBoolean.True;
+
+            // Add a title to the chart (if necessary).
+            lineChart.Titles.Add(new ChartTitle());
+            lineChart.Titles[0].Text = "A Line Chart";
+
+            // Add the chart to the form.
+            lineChart.Dock = DockStyle.Fill;
+            panelControl1.Controls.Add(lineChart);
+        }
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
+            DateTime d1 = DateTime.Parse(dateEdit1.DateTime.ToString("yyyy-MM-dd")), d2 =
+            DateTime.Parse(dateEdit2.DateTime.ToString("yyyy-MM-dd"));
+            
+            BieuDoLine(d1,d2);
         }
     }
 }

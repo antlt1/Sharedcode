@@ -28,56 +28,95 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.qLTVDataSet = new BieuDoMuaQuat.QLTVDataSet();
-            this.dOCGIABindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.dOC_GIATableAdapter = new BieuDoMuaQuat.QLTVDataSetTableAdapters.DOC_GIATableAdapter();
-            this.dOCGIABindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            ((System.ComponentModel.ISupportInitialize)(this.qLTVDataSet)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dOCGIABindingSource)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dOCGIABindingSource1)).BeginInit();
+            this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            this.dateEdit1 = new DevExpress.XtraEditors.DateEdit();
+            this.dateEdit2 = new DevExpress.XtraEditors.DateEdit();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.textEdit1 = new DevExpress.XtraEditors.TextEdit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.CalendarTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties.CalendarTimeProperties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).BeginInit();
             this.SuspendLayout();
             // 
-            // qLTVDataSet
+            // panelControl1
             // 
-            this.qLTVDataSet.DataSetName = "QLTVDataSet";
-            this.qLTVDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            this.panelControl1.Location = new System.Drawing.Point(12, 12);
+            this.panelControl1.Name = "panelControl1";
+            this.panelControl1.Size = new System.Drawing.Size(712, 321);
+            this.panelControl1.TabIndex = 0;
             // 
-            // dOCGIABindingSource
+            // dateEdit1
             // 
-            this.dOCGIABindingSource.DataMember = "DOC_GIA";
-            this.dOCGIABindingSource.DataSource = this.qLTVDataSet;
+            this.dateEdit1.EditValue = null;
+            this.dateEdit1.Location = new System.Drawing.Point(819, 118);
+            this.dateEdit1.Name = "dateEdit1";
+            this.dateEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateEdit1.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateEdit1.Size = new System.Drawing.Size(150, 28);
+            this.dateEdit1.TabIndex = 1;
             // 
-            // dOC_GIATableAdapter
+            // dateEdit2
             // 
-            this.dOC_GIATableAdapter.ClearBeforeFill = true;
+            this.dateEdit2.EditValue = null;
+            this.dateEdit2.Location = new System.Drawing.Point(819, 191);
+            this.dateEdit2.Name = "dateEdit2";
+            this.dateEdit2.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateEdit2.Properties.CalendarTimeProperties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
+            new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.dateEdit2.Size = new System.Drawing.Size(150, 28);
+            this.dateEdit2.TabIndex = 2;
             // 
-            // dOCGIABindingSource1
+            // simpleButton1
             // 
-            this.dOCGIABindingSource1.DataMember = "DOC_GIA";
-            this.dOCGIABindingSource1.DataSource = this.qLTVDataSet;
+            this.simpleButton1.Location = new System.Drawing.Point(992, 122);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(112, 34);
+            this.simpleButton1.TabIndex = 3;
+            this.simpleButton1.Text = "simpleButton1";
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
+            // 
+            // textEdit1
+            // 
+            this.textEdit1.Location = new System.Drawing.Point(819, 256);
+            this.textEdit1.Name = "textEdit1";
+            this.textEdit1.Size = new System.Drawing.Size(150, 28);
+            this.textEdit1.TabIndex = 4;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1054, 468);
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.ClientSize = new System.Drawing.Size(1355, 556);
+            this.Controls.Add(this.textEdit1);
+            this.Controls.Add(this.simpleButton1);
+            this.Controls.Add(this.dateEdit2);
+            this.Controls.Add(this.dateEdit1);
+            this.Controls.Add(this.panelControl1);
+            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.qLTVDataSet)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dOCGIABindingSource)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dOCGIABindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.panelControl1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties.CalendarTimeProperties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit1.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties.CalendarTimeProperties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dateEdit2.Properties)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private QLTVDataSetTableAdapters.DOC_GIATableAdapter dOC_GIATableAdapter;
-        private QLTVDataSet qLTVDataSet;
-        private System.Windows.Forms.BindingSource dOCGIABindingSource;
-        private System.Windows.Forms.BindingSource dOCGIABindingSource1;
+        private DevExpress.XtraEditors.PanelControl panelControl1;
+        private DevExpress.XtraEditors.DateEdit dateEdit1;
+        private DevExpress.XtraEditors.DateEdit dateEdit2;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.TextEdit textEdit1;
     }
 }
 
