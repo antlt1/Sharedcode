@@ -1,0 +1,40 @@
+c:\users\asus\documents\visual studio 2013\Projects\QLKHOVATLIEU\QLKHOVATLIEU\bin\Debug\QLKHOVATLIEU.exe.config
+c:\users\asus\documents\visual studio 2013\Projects\QLKHOVATLIEU\QLKHOVATLIEU\bin\Debug\QLKHOVATLIEU.exe
+c:\users\asus\documents\visual studio 2013\Projects\QLKHOVATLIEU\QLKHOVATLIEU\bin\Debug\QLKHOVATLIEU.pdb
+c:\users\asus\documents\visual studio 2013\Projects\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.Properties.Resources.resources
+c:\users\asus\documents\visual studio 2013\Projects\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.csproj.GenerateResource.Cache
+c:\users\asus\documents\visual studio 2013\Projects\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.exe
+c:\users\asus\documents\visual studio 2013\Projects\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.pdb
+C:\Users\ASUS\documents\visual studio 2013\Projects\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.Dangnhap.resources
+C:\Users\ASUS\documents\visual studio 2013\Projects\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.frmkhachhang.resources
+C:\Users\ASUS\documents\visual studio 2013\Projects\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.frmsanpham.resources
+C:\Users\ASUS\documents\visual studio 2013\Projects\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.frmMain.resources
+C:\Users\ASUS\documents\visual studio 2013\Projects\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.frmphieunhap.resources
+C:\Users\ASUS\documents\visual studio 2013\Projects\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.frmloaisanpham.resources
+C:\Users\ASUS\documents\visual studio 2013\Projects\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.frmnhanvien.resources
+C:\Users\ASUS\documents\visual studio 2013\Projects\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.frmhoadon.resources
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.frmkhohang.resources
+C:\Users\ASUS\Documents\Visual Studio 2013\Projects\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.frmtracuu.resources
+C:\Users\ASUS\documents\visual studio 2013\Projects\QLKHOVATLIEU\QLKHOVATLIEU\bin\Debug\Data\trash.cs
+D:\QLKHOVATLIEU\QLKHOVATLIEU\bin\Debug\Data\trash.cs
+D:\QLKHOVATLIEU\QLKHOVATLIEU\bin\Debug\QLKHOVATLIEU.exe.config
+D:\QLKHOVATLIEU\QLKHOVATLIEU\bin\Debug\QLKHOVATLIEU.exe
+D:\QLKHOVATLIEU\QLKHOVATLIEU\bin\Debug\QLKHOVATLIEU.pdb
+D:\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.Dangnhap.resources
+D:\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.frmMain.resources
+D:\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.frmhoadon.resources
+D:\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.frmkhachhang.resources
+D:\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.frmkhohang.resources
+D:\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.frmnhanvien.resources
+D:\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.frmphieunhap.resources
+D:\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.Properties.Resources.resources
+D:\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.frmsanpham.resources
+D:\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.frmtracuu.resources
+D:\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.csproj.GenerateResource.cache
+D:\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.csproj.CoreCompileInputs.cache
+D:\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.exe
+D:\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.pdb
+D:\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.LoaiSanPham.resources
+D:\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.csprojAssemblyReference.cache
+D:\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.Console.Pick_loaisanpham.resources
+D:\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.Console.Pick_Kho.resources
