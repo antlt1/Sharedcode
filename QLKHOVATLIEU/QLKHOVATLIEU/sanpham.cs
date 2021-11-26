@@ -41,7 +41,7 @@ namespace QLKHOVATLIEU
         {
 
         }
-
+       public static string id_sp, name_sp;
         private void frmsanpham_Load(object sender, EventArgs e)
         {
             button2_Click(sender,e);

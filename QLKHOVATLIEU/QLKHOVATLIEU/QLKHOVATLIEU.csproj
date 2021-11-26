@@ -61,6 +61,12 @@
     <Compile Include="Console\Pick_loaisanpham.Designer.cs">
       <DependentUpon>Pick_loaisanpham.cs</DependentUpon>
     </Compile>
+    <Compile Include="Console\Pick_Sanpham.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Console\Pick_Sanpham.Designer.cs">
+      <DependentUpon>Pick_Sanpham.cs</DependentUpon>
+    </Compile>
     <Compile Include="Dangnhap.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -132,6 +138,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Console\Pick_loaisanpham.resx">
       <DependentUpon>Pick_loaisanpham.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Console\Pick_Sanpham.resx">
+      <DependentUpon>Pick_Sanpham.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dangnhap.resx">
       <DependentUpon>Dangnhap.cs</DependentUpon>
