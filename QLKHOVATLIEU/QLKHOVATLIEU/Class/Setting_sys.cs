@@ -35,6 +35,7 @@ namespace QLKHOVATLIEU.Class
                  string log = File.ReadAllText(term);
                  if (log.Length > 0)
                  {
+                   
                      return true;
                  }
                     return  false;

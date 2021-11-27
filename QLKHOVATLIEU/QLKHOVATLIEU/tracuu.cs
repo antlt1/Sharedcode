@@ -16,5 +16,13 @@ namespace QLKHOVATLIEU
         {
             InitializeComponent();
         }
+
+        private void frmtracuu_Load(object sender, EventArgs e)
+        {
+            lb_sp.Text = Class.Csdl_sys.ex_data_tring("select COUNT(*) from SanPham ") ;
+            lb_nv.Text = Class.Csdl_sys.ex_data_tring("select COUNT(*) from TaiKhoan where NhanVien = 1");
+            lb_lsp.Text = Class.Csdl_sys.ex_data_tring("select COUNT(*) from LoaiSanPham");
+            lb_kh.Text = Class.Csdl_sys.ex_data_tring("select COUNT(*) from KhoHang");
+        }
     }
 }

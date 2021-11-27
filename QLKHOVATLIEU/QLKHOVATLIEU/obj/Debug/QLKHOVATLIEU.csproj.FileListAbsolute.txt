@@ -48,7 +48,6 @@ D:\Code\C#\WF\Sharedcode\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.Consol
 D:\Code\C#\WF\Sharedcode\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.Dangnhap.resources
 D:\Code\C#\WF\Sharedcode\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.frmMain.resources
 D:\Code\C#\WF\Sharedcode\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.frmhoadon.resources
-D:\Code\C#\WF\Sharedcode\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.frmkhachhang.resources
 D:\Code\C#\WF\Sharedcode\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.frmkhohang.resources
 D:\Code\C#\WF\Sharedcode\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.LoaiSanPham.resources
 D:\Code\C#\WF\Sharedcode\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.frmnhanvien.resources
@@ -60,3 +59,5 @@ D:\Code\C#\WF\Sharedcode\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.csproj
 D:\Code\C#\WF\Sharedcode\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.csproj.CoreCompileInputs.cache
 D:\Code\C#\WF\Sharedcode\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.exe
 D:\Code\C#\WF\Sharedcode\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.pdb
+D:\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.Console.Pick_Sanpham.resources
+D:\Code\C#\WF\Sharedcode\QLKHOVATLIEU\QLKHOVATLIEU\obj\Debug\QLKHOVATLIEU.Console.Pick_Sanpham.resources

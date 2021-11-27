@@ -16,7 +16,8 @@ namespace QLKHOVATLIEU.Class
         public static SqlConnection connect()
         {
             SqlConnection conn = new SqlConnection(
-               @"Data Source=DESKTOP-JLQ0MT8\SQLEXPRESS;Initial Catalog=QuanLyKhoVatLieu;Integrated Security=True");// -- > chuỗi connect sql
+
+               @"Data Source=DESKTOP-OHR5HCL\SQLEXPRESS;Initial Catalog=QuanLyKhoVatLieu;Integrated Security=True");// -- > chuỗi connect sql
             return conn;
         }
         public static SqlDataAdapter da;

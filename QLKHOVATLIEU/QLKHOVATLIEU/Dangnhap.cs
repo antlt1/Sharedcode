@@ -43,7 +43,7 @@ namespace QLKHOVATLIEU
                 }
                 Setting_sys.mess("Đăng nhập thành công !");
                 QLKHOVATLIEU.frmMain.id_user_name = Class.Csdl_sys.ex_data_tring(string.Format(
-                        "select matk  from taikhoan where tentk = '{0}'", txttaikhoan.Text));
+                        "select matk  from taikhoan where taikhoan = '{0}'", txttaikhoan.Text));
                 QLKHOVATLIEU.frmMain.log_login = true;
                 this.Hide();
             }

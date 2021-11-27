@@ -30,6 +30,11 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmnhanvien));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.rbtn_nam = new System.Windows.Forms.RadioButton();
+            this.rbtn_nu = new System.Windows.Forms.RadioButton();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.txt_pass = new System.Windows.Forms.TextBox();
             this.label8 = new System.Windows.Forms.Label();
             this.txt_user = new System.Windows.Forms.TextBox();
@@ -51,15 +56,10 @@
             this.btn_edit = new System.Windows.Forms.Button();
             this.btn_del = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.rbtn_nam = new System.Windows.Forms.RadioButton();
-            this.rbtn_nu = new System.Windows.Forms.RadioButton();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.groupBox1.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gv_nhanvien)).BeginInit();
             this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -92,6 +92,67 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Thông Tin Nhân Viên";
+            // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.rbtn_nam);
+            this.groupBox3.Controls.Add(this.rbtn_nu);
+            this.groupBox3.Location = new System.Drawing.Point(38, 158);
+            this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.groupBox3.Size = new System.Drawing.Size(200, 100);
+            this.groupBox3.TabIndex = 20;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Giới tính";
+            // 
+            // rbtn_nam
+            // 
+            this.rbtn_nam.AutoSize = true;
+            this.rbtn_nam.Location = new System.Drawing.Point(37, 30);
+            this.rbtn_nam.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.rbtn_nam.Name = "rbtn_nam";
+            this.rbtn_nam.Size = new System.Drawing.Size(84, 29);
+            this.rbtn_nam.TabIndex = 18;
+            this.rbtn_nam.TabStop = true;
+            this.rbtn_nam.Text = "Nam";
+            this.rbtn_nam.UseVisualStyleBackColor = true;
+            this.rbtn_nam.CheckedChanged += new System.EventHandler(this.rbtn_nam_CheckedChanged);
+            // 
+            // rbtn_nu
+            // 
+            this.rbtn_nu.AutoSize = true;
+            this.rbtn_nu.Location = new System.Drawing.Point(37, 65);
+            this.rbtn_nu.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.rbtn_nu.Name = "rbtn_nu";
+            this.rbtn_nu.Size = new System.Drawing.Size(66, 29);
+            this.rbtn_nu.TabIndex = 19;
+            this.rbtn_nu.TabStop = true;
+            this.rbtn_nu.Text = "Nữ";
+            this.rbtn_nu.UseVisualStyleBackColor = true;
+            this.rbtn_nu.CheckedChanged += new System.EventHandler(this.rbtn_nam_CheckedChanged);
+            // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(828, 264);
+            this.button6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 32);
+            this.button6.TabIndex = 17;
+            this.button6.Text = "hiện";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(364, 51);
+            this.button5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 32);
+            this.button5.TabIndex = 16;
+            this.button5.Text = "button5";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // txt_pass
             // 
@@ -243,7 +304,7 @@
             this.gv_nhanvien.Name = "gv_nhanvien";
             this.gv_nhanvien.RowHeadersWidth = 62;
             this.gv_nhanvien.RowTemplate.Height = 24;
-            this.gv_nhanvien.Size = new System.Drawing.Size(1350, 409);
+            this.gv_nhanvien.Size = new System.Drawing.Size(1350, 300);
             this.gv_nhanvien.TabIndex = 1;
             this.gv_nhanvien.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gv_nhanvien_CellContentClick);
             // 
@@ -351,59 +412,6 @@
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button5
-            // 
-            this.button5.Location = new System.Drawing.Point(365, 51);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 33);
-            this.button5.TabIndex = 16;
-            this.button5.Text = "button5";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(828, 264);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 33);
-            this.button6.TabIndex = 17;
-            this.button6.Text = "hiện";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // rbtn_nam
-            // 
-            this.rbtn_nam.AutoSize = true;
-            this.rbtn_nam.Location = new System.Drawing.Point(37, 30);
-            this.rbtn_nam.Name = "rbtn_nam";
-            this.rbtn_nam.Size = new System.Drawing.Size(81, 29);
-            this.rbtn_nam.TabIndex = 18;
-            this.rbtn_nam.TabStop = true;
-            this.rbtn_nam.Text = "nam";
-            this.rbtn_nam.UseVisualStyleBackColor = true;
-            // 
-            // rbtn_nu
-            // 
-            this.rbtn_nu.AutoSize = true;
-            this.rbtn_nu.Location = new System.Drawing.Point(37, 65);
-            this.rbtn_nu.Name = "rbtn_nu";
-            this.rbtn_nu.Size = new System.Drawing.Size(63, 29);
-            this.rbtn_nu.TabIndex = 19;
-            this.rbtn_nu.TabStop = true;
-            this.rbtn_nu.Text = "nữ";
-            this.rbtn_nu.UseVisualStyleBackColor = true;
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.rbtn_nam);
-            this.groupBox3.Controls.Add(this.rbtn_nu);
-            this.groupBox3.Location = new System.Drawing.Point(38, 157);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(200, 100);
-            this.groupBox3.TabIndex = 20;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Giới tính";
-            // 
             // frmnhanvien
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -425,10 +433,10 @@
             this.Load += new System.EventHandler(this.frmnhanvien_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.gv_nhanvien)).EndInit();
-            this.groupBox2.ResumeLayout(false);
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.gv_nhanvien)).EndInit();
+            this.groupBox2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
